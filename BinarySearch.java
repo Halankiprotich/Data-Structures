@@ -10,7 +10,7 @@ public class BinarySearch {
             int mid=(low+high)/2;
 
             if (arr[mid]==target){
-                System.out.println("Elenet found at index:" +mid);
+                System.out.println("Element found at index:" +mid);
                 return;
             }
             else if (arr[mid]<target){
